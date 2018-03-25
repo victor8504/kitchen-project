@@ -117,3 +117,69 @@ body{
       color: #f15a29;
       border: 1px solid #f15a29;
   }
+
+  .section-navigation {
+      margin-left: -10%;
+      margin-right: -10%;
+      padding: 70px;
+      text-align: center;
+      background-image: url("../img/assets/backgrounds/foodsBg.jpg");
+      background-size: cover;
+      background-attachment: scroll;
+      background-clip: border-box;
+      background-position: center;
+      background-repeat: no-repeat;
+
+  }
+  .nav-list {
+      width: 80%;
+      margin: auto;
+  }
+
+  .nav-tabs {
+      background-color: lightgrey;
+      font-size: 20px;
+  }
+
+  .nav-tabs>.active {
+      background-color: white;
+      border-bottom: 0;
+  }
+
+  .nav-tabs li {
+      border-right: 1px solid #777;
+      border-bottom: 1px solid #777;
+  }
+
+  a {
+      color: black;
+  }
+
+  .nav-tabs li.active a,
+  .nav-tabs li.active a:hover,
+  .nav-tabs li.active a:focus {
+      color: #f15a19;
+  }
+
+  .tab-content {
+    background-color: white;
+  }
+
+  .carousel-inner {
+    padding: 25px;
+  }
+
+  .item {
+    float: left;
+    margin: 10px;
+  }
+
+  carousel-control {
+    opacity: 1;
+    color: #f15a19;
+  }
+
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+  }
