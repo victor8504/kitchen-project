@@ -19,3 +19,54 @@ body{
 .boldSlogan {
     font-weight: bold;
   }
+
+  .section-menu{
+      margin-left: -10%;
+      margin-right: -10%;
+      text-align: center;
+      color: white;
+      font-family: serif;
+      font-size: 20px;
+  }
+
+  #happyhour{
+    padding-top: 41px;
+    padding-bottom: 45px;
+    margin-right: -30px;
+    margin-bottom: 0px;
+    color: black;
+    background-color: lightgrey;
+  }
+
+  #partytime{
+    padding-top:41px;
+    padding-bottom:45px;
+    margin-right: -30px;
+    background-color:#f15a29;;
+  }
+
+  #breakfast{
+    background-image: url("../img/assets/foodtop/breakfast.jpg");
+    background-size: cover;
+    padding: 100px;
+    margin-right: -30px;
+  }
+
+  #lunch{
+    background-image: url("../img/assets/foodtop/lunch.jpg");
+    background-size: cover;
+    padding: 100px;
+    margin-right: -30px;
+  }
+
+  #dinner{
+    background-image: url("../img/assets/foodtop/dinner.jpg");
+    background-size: cover;
+    padding:100px;
+  }
+
+  #breakfast:hover,
+  #lunch:hover,
+  #dinner:hover {
+      color:black;
+      opacity:0.7;
