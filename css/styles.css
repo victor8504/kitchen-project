@@ -268,7 +268,7 @@ body{
     margin: auto;
   }
 
-  .section6 p {
+  .section-form p {
     font-size: 30px;
   }
 
@@ -300,4 +300,39 @@ body{
   .footer .fa {
     margin-right: 15px;
     margin-left: 15px;
+  }
+
+  .section-footer {
+    background-color: #f15a29;
+    margin-left: -10%;
+    margin-right: -10%;
+  }
+
+  .footer {
+    width: 30%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
+
+  .footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer h2 {
+    font-size: 30px;
+  }
+
+  #copyright {
+    font-size: 14px;
   }
