@@ -183,3 +183,70 @@ body{
   .carousel-control.right {
     background-image: none;
   }
+
+  .section-subscription.row {
+    width: 80%;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 5px lightgrey;
+    padding-left: 40px;
+  }
+
+  .customers {
+    margin-left: auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .customers h4 {
+    color: #f15a29;
+    font-weight: bold;
+  }
+
+  .carousel-inner.item-active img {
+    margin-left: auto;
+  }
+
+  #testimonials .carousel-inner {
+    padding: 0px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .item h5 {
+    margin-top: 1px;
+  }
+
+  .carousel-inner .item.left.active {
+    transform: translateX(-33%);
+  }
+
+  .carousel-inner .item.right.active {
+    transform: translateX(33%);
+  }
+
+  .carousel-inner .item.next {
+    transform: translateX(-33%);
+  }
+
+  .carousel-inner .item.prev {
+    transform: translateX(33%);
+  }
+
+  .carousel-inner .item.right,
+  .carousel-inner .item.left {
+    transform: translateX(0);
+  }
+
+  .about {
+    padding: 20px;
+    text-align: center;
+    border-left: 2px solid #ddd;
+  }
+
+  .about h4 {
+    color: #f15a29;
+    font-weight: bold;
+  }
