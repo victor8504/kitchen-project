@@ -250,3 +250,54 @@ body{
     color: #f15a29;
     font-weight: bold;
   }
+
+  .section-form {
+    text-align: center;
+    background-image: url("../img/assets/backgrounds/subscribe.jpg");
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 80px;
+  }
+
+  .form-group {
+    width: 50%;
+    margin: auto;
+  }
+
+  .section6 p {
+    font-size: 30px;
+  }
+
+  input[type=email] {
+    background-color: grey;
+    font-size: 16px;
+  }
+
+  input[type=button] {
+    background-color: #f15a29;
+    color: white;
+    font-size: 16px;
+  }
+
+  .form-control {
+    border: 0px;
+    border-radius: 2px;
+  }
+
+  .form-control::-webkit-input-placeholder {
+    color: white;
+    opacity: 1;
+  }
+
+  #output {
+    font-size: 20px;
+  }
+
+  .footer .fa {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
